@@ -1,0 +1,5 @@
+language: objective-c
+xcode_project: Secretary.xcodeproj
+xcode_scheme: Secretary
+script: xcodebuild -scheme Secretary test
+osx_image: xcode10.2
